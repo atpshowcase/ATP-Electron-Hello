@@ -1,0 +1,17 @@
+{
+  "name": "electron-part1",
+  "version": "1.0.0",
+  "description": "An electron tutorial",
+  "main": "index.js",
+  "scripts": {
+    "package": "electron-packager .",
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^34.0.1",
+    "electron-packager": "^17.1.2"
+  }
+}
